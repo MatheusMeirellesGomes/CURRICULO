@@ -1,75 +1,339 @@
+/* Configurações gerais do body */
 body {
-  font-family: Arial, sans-serif;
+  /* Define a fonte padrão do documento, com alternativas para compatibilidade */
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  /* Define a cor de fundo cinza clara, equivalente à classe Tailwind bg-gray-100 */
+  background-color: #f3f4f6;
+  /* Remove margens padrão do body para evitar espaçamentos indesejados */
   margin: 0;
-  padding: 20px;
-  background-color: #f4f4f4;
-  color: #333;
 }
 
-header {
-  text-align: center;
-  padding: 20px;
-  background-color: #007BFF;
-  color: #fff;
+/* Estilização do container principal */
+.container {
+  /* Define a largura como 98% da tela para ocupar quase todo o espaço em telas grandes */
+  width: 98% !important;
+  /* Limita a largura máxima a 1600px (~100rem) para evitar que o container fique muito largo */
+  max-width: 100rem;
+  /* Centraliza o container horizontalmente */
+  margin-left: auto;
+  margin-right: auto;
+  /* Garante que o container ocupe toda a altura da tela */
+  min-height: 100vh;
+  /* Usa flexbox para organizar o conteúdo em coluna (header, main, footer) */
+  display: flex;
+  flex-direction: column;
 }
 
-h1 {
-  margin: 0;
-  font-size: 2.5em;
+/* Estilização do header fixo */
+.fixed-header {
+  /* Fixa o header no topo da tela */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* Garante que o header ocupe toda a largura da tela */
+  width: 100%;
+  /* Define um z-index alto para o header ficar acima de outros elementos */
+  z-index: 1000;
 }
 
-h2 {
-  color: #007BFF;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 5px;
+/* Estilização do conteúdo principal (main) */
+.main-content {
+  /* Faz o main ocupar o espaço disponível entre header e footer */
+  flex: 1;
+  /* Adiciona margem superior para evitar que o conteúdo seja coberto pelo header fixo */
+  margin-top: 10rem;
+  /* Adiciona margem inferior para evitar que o conteúdo seja coberto pelo footer fixo */
+  margin-bottom: 8rem;
 }
 
-main {
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: #fff;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+/* Estilização do footer fixo */
+.fixed-footer {
+  /* Fixa o footer na parte inferior da tela */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* Garante que o footer ocupe toda a largura da tela */
+  width: 100%;
+  /* Define um z-index alto para o footer ficar acima de outros elementos */
+  z-index: 1000;
 }
 
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #007BFF;
-  color: #fff;
-  margin-top: 20px;
+/* Estilização das listas nas seções */
+section ul li {
+  /* Adiciona uma transição suave para o efeito de hover nas listas */
+  transition: transform 0.2s ease;
+  /* Define altura da linha para melhorar legibilidade com fontes maiores */
+  line-height: 1.3;
 }
 
+/* Efeito de hover nos itens da lista */
+section ul li:hover {
+  /* Move o item 5px para a direita ao passar o mouse */
+  transform: translateX(5px);
+}
+
+/* Estilização dos links no rodapé */
 .contact-info a {
-  color: #fff;
-  margin: 0 10px;
-  font-size: 1.1em;
-  text-decoration: none;
+  /* Alinha o ícone e o texto verticalmente */
+  display: inline-flex;
+  align-items: center;
+  /* Define altura da linha para melhorar legibilidade com fontes maiores */
+  line-height: 1.3;
 }
 
-.contact-info a:hover {
-  text-decoration: underline;
+/* Ajuste específico para a seção de idiomas */
+#idiomas h2 {
+  /* Aumenta o espaçamento abaixo do título para separar a linha laranja do primeiro item da lista */
+  margin-bottom: 1.5rem;
 }
 
-.contact-info i {
-  margin-right: 5px;
-}
+/* Media Queries para responsividade */
 
-@media (max-width: 600px) {
-  body {
-    padding: 10px;
+/* Telas muito grandes (>1536px, ex.: monitores 2K/4K) */
+@media (min-width: 1536px) {
+  .container {
+    /* Reduz a largura para 96% para manter margens sutis em telas muito grandes */
+    width: 96% !important;
   }
-
-  h1 {
-    font-size: 1.8em;
+  .fixed-header {
+    /* Aumenta o padding vertical do header para um visual mais espaçoso */
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
-
-  main {
-    padding: 15px;
+  .fixed-header h1 {
+    /* Título principal com 8rem (~128px), aumentado em 75% de 6rem */
+    font-size: 8rem !important;
   }
-
+  .fixed-header p {
+    /* Subtítulo com 4rem (~64px), aumentado em 75% de 2.5rem */
+    font-size: 4rem !important;
+  }
+  section h2 {
+    /* Títulos de seção com 5rem (~80px), aumentado em 75% de 3.25rem */
+    font-size: 5rem !important;
+  }
+  .item h3 {
+    /* Subtítulos com 4rem (~64px), aumentado em 75% de 2.5rem */
+    font-size: 4rem !important;
+  }
+  section p,
+  section ul li {
+    /* Texto geral com 3.5rem (~56px), aumentado em 75% de 2rem */
+    font-size: 3.5rem !important;
+    /* Mantém altura da linha proporcional para legibilidade */
+    line-height: 1.2;
+  }
   .contact-info a {
-    display: block;
-    margin: 5px 0;
+    /* Links do footer com 3.5rem (~56px), aumentado em 75% de 2rem */
+    font-size: 3.5rem !important;
+  }
+  #idiomas h2 {
+    /* Aumenta o espaçamento abaixo do título Idiomas para 2.5rem (~40px) */
+    margin-bottom: 2.5rem !important;
+  }
+  .main-content {
+    /* Aumenta margens para acomodar fontes maiores no header e footer */
+    margin-top: 12rem;
+    margin-bottom: 10rem;
+  }
+}
+
+/* Telas grandes (1280px a 1535px, ex.: monitores Full HD) */
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .container {
+    /* Mantém a largura em 96% para telas grandes */
+    width: 96% !important;
+  }
+  .fixed-header {
+    /* Padding vertical ajustado para telas grandes */
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+  .fixed-header h1 {
+    /* Título principal com 7.5rem (~120px), aumentado em 75% de 5.5rem */
+    font-size: 7.5rem !important;
+  }
+  .fixed-header p {
+    /* Subtítulo com 3.5rem (~56px), aumentado em 75% de 2.25rem */
+    font-size: 3.5rem !important;
+  }
+  section h2 {
+    /* Títulos de seção com 4.5rem (~72px), aumentado em 75% de 3rem */
+    font-size: 4.5rem !important;
+  }
+  .item h3 {
+    /* Subtítulos com 3.5rem (~56px), aumentado em 75% de 2.25rem */
+    font-size: 3.5rem !important;
+  }
+  section p,
+  section ul li {
+    /* Texto geral com 3rem (~48px), aumentado em 75% de 1.75rem */
+    font-size: 3rem !important;
+    /* Mantém altura da linha proporcional para legibilidade */
+    line-height: 1.2;
+  }
+  .contact-info a {
+    /* Links do footer com 3rem (~48px), aumentado em 75% de 1.75rem */
+    font-size: 3rem !important;
+  }
+  #idiomas h2 {
+    /* Espaçamento abaixo do título Idiomas com 2rem (~32px) */
+    margin-bottom: 2rem !important;
+  }
+  .main-content {
+    /* Ajusta margens para acomodar fontes maiores no header e footer */
+    margin-top: 11rem;
+    margin-bottom: 9rem;
+  }
+}
+
+/* Telas médias (768px a 1279px, ex.: tablets) */
+@media (min-width: 768px) and (max-width: 1279px) {
+  .container {
+    /* Reduz a largura para 92% para melhor proporção */
+    width: 92%;
+  }
+  .fixed-header {
+    /* Padding vertical ajustado para telas médias */
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .fixed-header h1 {
+    /* Título principal com 4.5rem (~72px), sem alteração */
+    font-size: 4.5rem;
+  }
+  .fixed-header p {
+    /* Subtítulo com 2rem (~32px), sem alteração */
+    font-size: 2rem;
+  }
+  section h2 {
+    /* Títulos de seção com 2.5rem (~40px), sem alteração */
+    font-size: 2.5rem;
+  }
+  .item h3 {
+    /* Subtítulos com 2rem (~32px), sem alteração */
+    font-size: 2rem;
+  }
+  section p,
+  section ul li {
+    /* Texto geral com 1.5rem (~24px), sem alteração */
+    font-size: 1.5rem;
+  }
+  .contact-info a {
+    /* Links do footer com 1.5rem (~24px), sem alteração */
+    font-size: 1.5rem;
+  }
+  .main-content {
+    /* Ajusta margens para header e footer fixos em telas médias */
+    margin-top: 9rem;
+    margin-bottom: 7rem;
+  }
+  #idiomas h2 {
+    /* Espaçamento abaixo do título Idiomas com 1.5rem (~24px) */
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* Telas pequenas (<767px, ex.: smartphones) */
+@media (max-width: 767px) {
+  .container {
+    /* Ocupa toda a largura com margens pequenas */
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .fixed-header {
+    /* Padding vertical reduzido para telas pequenas */
+    padding: 2rem;
+  }
+  .fixed-header h1 {
+    /* Título principal com 3rem (~48px), sem alteração */
+    font-size: 3rem;
+  }
+  .fixed-header p {
+    /* Subtítulo com 1.5rem (~24px), sem alteração */
+    font-size: 1.5rem;
+  }
+  .main-content {
+    /* Margens ajustadas para header e footer fixos */
+    margin-top: 7rem;
+    margin-bottom: 6rem;
+  }
+  section h2 {
+    /* Títulos de seção com 2rem (~32px), sem alteração */
+    font-size: 2rem;
+  }
+  .item h3 {
+    /* Subtítulos com 1.75rem (~28px), sem alteração */
+    font-size: 1.75rem;
+  }
+  section p,
+  section ul li {
+    /* Texto geral com 1.25rem (~20px), sem alteração */
+    font-size: 1.25rem;
+  }
+  .contact-info {
+    /* Organiza os links do footer em coluna para telas pequenas */
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .contact-info a {
+    /* Links do footer com 1.25rem (~20px), sem alteração */
+    font-size: 1.25rem;
+  }
+  #idiomas h2 {
+    /* Espaçamento abaixo do título Idiomas com 1.25rem (~20px) */
+    margin-bottom: 1.25rem;
+  }
+}
+
+/* Telas muito pequenas (<480px, ex.: smartphones menores) */
+@media (max-width: 480px) {
+  .container {
+    /* Ocupa toda a largura sem margens laterais */
+    width: 100%;
+    margin: 0;
+    /* Remove bordas arredondadas para maximizar o espaço */
+    border-radius: 0;
+  }
+  .fixed-header {
+    /* Padding vertical mínimo para telas muito pequenas */
+    padding: 1.5rem;
+  }
+  .fixed-header h1 {
+    /* Título principal com 2.25rem (~36px), sem alteração */
+    font-size: 2.25rem;
+  }
+  .fixed-header p {
+    /* Subtítulo com 1.25rem (~20px), sem alteração */
+    font-size: 1.25rem;
+  }
+  .main-content {
+    /* Margens mínimas para header e footer fixos */
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  section h2 {
+    /* Títulos de seção com 1.75rem (~28px), sem alteração */
+    font-size: 1.75rem;
+  }
+  .item h3 {
+    /* Subtítulos com 1.5rem (~24px), sem alteração */
+    font-size: 1.5rem;
+  }
+  section p,
+  section ul li {
+    /* Texto geral com 1rem (~16px), sem alteração */
+    font-size: 1rem;
+  }
+  .contact-info a {
+    /* Links do footer com 1rem (~16px), sem alteração */
+    font-size: 1rem;
+  }
+  #idiomas h2 {
+    /* Espaçamento abaixo do título Idiomas com 1rem (~16px) */
+    margin-bottom: 1rem;
   }
 }
