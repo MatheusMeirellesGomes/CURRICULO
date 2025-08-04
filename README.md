@@ -31,11 +31,6 @@ Acesse Online:
 Se hospedado no GitHub Pages, clique aqui para visualizar o currículo diretamente no navegador por este endereçp:
 - matheusmeirellesgomes.github.io.
 
-Localmente:
-Clone o repositório:
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-Abra o arquivo index.html em um navegador.
-
 
 📬 Contato
 <div align="center"> 
