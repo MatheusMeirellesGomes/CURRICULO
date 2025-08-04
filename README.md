@@ -38,7 +38,11 @@ Abra o arquivo index.html em um navegador.
 
 
 📬 Contato
-
+<div align="center"> 
+    <a href = "mailto:matheusrmme2019@gmail.com" style="text-decoration: none;"><img src="https://img.shields.io/badge/-Gmail-ff5555?style=for-the-badge&logo=gmail&logoColor=fff" target="_blank"></a>
+    <a href = "https://www.instagram.com/gomesmatheusjj/" style="text-decoration: none;"><img src="https://img.shields.io/badge/-Instagram-ff79c6?style=for-the-badge&logo=instagram&logoColor=fff" target="_blank"></a>
+    <a href="https://www.linkedin.com/in/gomesmatheusjj/" target="_blank" style="text-decoration: none;"><img src="https://img.shields.io/badge/-LinkedIn-bd93f9?style=for-the-badge&logo=linkedin&logoColor=fff" target="_blank"></a>
+</div>
 
 🌟 Agradecimentos
 
