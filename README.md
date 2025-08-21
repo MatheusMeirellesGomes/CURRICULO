@@ -1,0 +1,46 @@
+Meu Currículo - Repositório GitHub
+
+Bem-vindo ao repositório do meu currículo! Este projeto contém a versão digital do meu currículo, desenvolvido com carinho para apresentar minhas habilidades, experiências e conquistas de forma clara e profissional. Aqui, você encontrará uma vitrine do meu perfil profissional, projetada para ser acessível, moderna e fácil de navegar.
+
+
+📋 Sobre o Projeto
+
+Este repositório abriga o código-fonte do meu currículo, construído com tecnologias web modernas para garantir uma apresentação visualmente atraente e funcional. O objetivo é compartilhar minhas competências e trajetória profissional de maneira organizada, permitindo que recrutadores, colegas e interessados conheçam mais sobre mim.
+
+
+✨ Funcionalidades
+
+Design Responsivo: O currículo se adapta perfeitamente a dispositivos móveis, tablets e desktops.
+Estrutura Clara: Informações organizadas em seções como Educação, Experiência, Habilidades e Projetos.
+Fácil Manutenção: Código modular e bem documentado, facilitando atualizações futuras.
+Estilo Profissional: Layout limpo e moderno, com foco na legibilidade e usabilidade.
+
+
+🛠 Tecnologias Utilizadas
+
+O projeto foi desenvolvido com as seguintes tecnologias:
+HTML: Estrutura semântica do currículo.
+CSS: Estilização moderna com frameworks como [Bootstrap/Tailwind] ou CSS personalizado.
+GitHub Pages: Hospedagem do currículo online para fácil acesso.
+Markdown: Este README foi escrito em Markdown para clareza e formatação.
+
+
+🚀 Como Visualizar o Currículo
+
+Acesse Online:
+Se hospedado no GitHub Pages, clique aqui para visualizar o currículo diretamente no navegador por este endereçp:
+- matheusmeirellesgomes.github.io.
+
+
+📬 Contato
+<div align="center"> 
+    <a href = "mailto:matheusrmme2019@gmail.com" style="text-decoration: none;"><img src="https://img.shields.io/badge/-Gmail-ff5555?style=for-the-badge&logo=gmail&logoColor=fff" target="_blank"></a>
+    <a href = "https://www.instagram.com/gomesmatheusjj/" style="text-decoration: none;"><img src="https://img.shields.io/badge/-Instagram-ff79c6?style=for-the-badge&logo=instagram&logoColor=fff" target="_blank"></a>
+    <a href="https://www.linkedin.com/in/gomesmatheusjj/" target="_blank" style="text-decoration: none;"><img src="https://img.shields.io/badge/-LinkedIn-bd93f9?style=for-the-badge&logo=linkedin&logoColor=fff" target="_blank"></a>
+</div>
+
+🌟 Agradecimentos
+
+Agradeço por visitar meu repositório! Este projeto reflete meu compromisso em apresentar meu trabalho de forma profissional e acessível. Fique à vontade para explorar e deixar um feedback.
+
+Última atualização: Agosto de 2025
