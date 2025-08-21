@@ -43,4 +43,4 @@ Se hospedado no GitHub Pages, clique aqui para visualizar o currículo diretamen
 
 Agradeço por visitar meu repositório! Este projeto reflete meu compromisso em apresentar meu trabalho de forma profissional e acessível. Fique à vontade para explorar e deixar um feedback.
 
-Última atualização: Agosto de 2025
+Última atualização: 21 de Agosto de 2025
