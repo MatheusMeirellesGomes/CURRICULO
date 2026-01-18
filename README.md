@@ -13,7 +13,7 @@ const matheus = {
     name: "Matheus Meirelles Gomes",
     location: "Minas Gerais, Brasil",
     education: "Computer Science - PUC-MG",
-    currentSemester: "2º período",
+    currentSemester: "3º período",
     role: "Estudante & Aspirante a Desenvolvedor",
     interests: ["Web Development", "Algorithms", "Data Structures"],
     languages: {
@@ -29,8 +29,8 @@ const matheus = {
 
 ### 🎯 Foco Atual
 
-🔭 Cursando **2º período de Ciência da Computação** na PUC-MG  
-🌱 Aprendendo **JavaScript, HTML, CSS, C, C++, Java, PHP**  
+🔭 Cursando **3º período de Ciência da Computação** na PUC-MG  
+🌱 Aprendendo **JavaScript, HTML, CSS, C, C++, Java, PHP, Banco de Dados, Java**  
 🔎 Buscando **estágio** para aplicar conhecimentos e evoluir profissionalmente  
 💡 Desenvolvendo projetos pessoais e acadêmicos  
 
