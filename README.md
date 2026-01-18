@@ -1,46 +1,129 @@
-Meu Currículo - Repositório GitHub
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=4169e1&height=120&section=header"/>
 
-Bem-vindo ao repositório do meu currículo! Este projeto contém a versão digital do meu currículo, desenvolvido com carinho para apresentar minhas habilidades, experiências e conquistas de forma clara e profissional. Aqui, você encontrará uma vitrine do meu perfil profissional, projetada para ser acessível, moderna e fácil de navegar.
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=4169e1&size=35&center=true&vCenter=true&width=1000&lines=Hello,+my+name+is+Matheus+Gomes;I'm+a+Computer+Science+student+at+PUC-MG;I'm+passionate+about+technology;Welcome+to+my+GitHub!+:%29)](https://git.io/typing-svg)
 
+<div align="center">
+  
+## 👨‍💻 Sobre Mim
 
-📋 Sobre o Projeto
-
-Este repositório abriga o código-fonte do meu currículo, construído com tecnologias web modernas para garantir uma apresentação visualmente atraente e funcional. O objetivo é compartilhar minhas competências e trajetória profissional de maneira organizada, permitindo que recrutadores, colegas e interessados conheçam mais sobre mim.
-
-
-✨ Funcionalidades
-
-Design Responsivo: O currículo se adapta perfeitamente a dispositivos móveis, tablets e desktops.
-Estrutura Clara: Informações organizadas em seções como Educação, Experiência, Habilidades e Projetos.
-Fácil Manutenção: Código modular e bem documentado, facilitando atualizações futuras.
-Estilo Profissional: Layout limpo e moderno, com foco na legibilidade e usabilidade.
-
-
-🛠 Tecnologias Utilizadas
-
-O projeto foi desenvolvido com as seguintes tecnologias:
-HTML: Estrutura semântica do currículo.
-CSS: Estilização moderna com frameworks como [Bootstrap/Tailwind] ou CSS personalizado.
-GitHub Pages: Hospedagem do currículo online para fácil acesso.
-Markdown: Este README foi escrito em Markdown para clareza e formatação.
-
-
-🚀 Como Visualizar o Currículo
-
-Acesse Online:
-Se hospedado no GitHub Pages, clique aqui para visualizar o currículo diretamente no navegador por este endereçp:
-- matheusmeirellesgomes.github.io.
-
-
-📬 Contato
-<div align="center"> 
-    <a href = "mailto:matheusrmme2019@gmail.com" style="text-decoration: none;"><img src="https://img.shields.io/badge/-Gmail-ff5555?style=for-the-badge&logo=gmail&logoColor=fff" target="_blank"></a>
-    <a href = "https://www.instagram.com/gomesmatheusjj/" style="text-decoration: none;"><img src="https://img.shields.io/badge/-Instagram-ff79c6?style=for-the-badge&logo=instagram&logoColor=fff" target="_blank"></a>
-    <a href="https://www.linkedin.com/in/gomesmatheusjj/" target="_blank" style="text-decoration: none;"><img src="https://img.shields.io/badge/-LinkedIn-bd93f9?style=for-the-badge&logo=linkedin&logoColor=fff" target="_blank"></a>
 </div>
 
-🌟 Agradecimentos
+```javascript
+const matheus = {
+    name: "Matheus Meirelles Gomes",
+    location: "Minas Gerais, Brasil",
+    education: "Computer Science - PUC-MG",
+    currentSemester: "2º período",
+    role: "Estudante & Aspirante a Desenvolvedor",
+    interests: ["Web Development", "Algorithms", "Data Structures"],
+    languages: {
+        portuguese: "Nativo",
+        english: "Avançado (fluente)",
+        spanish: "Intermediário"
+    },
+    lookingFor: "Oportunidades de estágio para aprender e crescer"
+};
+```
 
-Agradeço por visitar meu repositório! Este projeto reflete meu compromisso em apresentar meu trabalho de forma profissional e acessível. Fique à vontade para explorar e deixar um feedback.
+<div align="center">
 
-Última atualização: 21 de Agosto de 2025
+### 🎯 Foco Atual
+
+🔭 Cursando **2º período de Ciência da Computação** na PUC-MG  
+🌱 Aprendendo **JavaScript, HTML, CSS, C, C++, Java, PHP**  
+🔎 Buscando **estágio** para aplicar conhecimentos e evoluir profissionalmente  
+💡 Desenvolvendo projetos pessoais e acadêmicos  
+
+</div>
+
+---
+
+## 📊 Estatísticas GitHub
+
+<div align="center">
+  
+[![Matheus Gomes github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=MatheusMeirellesGomes&bg_color=0d1117&color=4169e1&line=4169e1&point=4169e1&area=true&area_color=4169e1&hide_border=true)](https://github.com/MatheusMeirellesGomes/)
+
+</div>
+
+<div align="center">
+  
+<img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=MatheusMeirellesGomes&show_icons=true&count_private=true&hide_border=true&title_color=4169e1&icon_color=4169e1&text_color=c9d1d9&bg_color=0d1117&rank_icon=github" alt="Matheus Gomes github stats" /> 
+
+<img width="49%" height="195px" src="https://github-readme-streak-stats.herokuapp.com/?user=MatheusMeirellesGomes&theme=dark&hide_border=true&background=0d1117&stroke=4169e1&ring=4169e1&fire=4169e1&currStreakLabel=4169e1" alt="GitHub Streak" />
+
+</div>
+
+<div align="center">
+  
+<img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MatheusMeirellesGomes&layout=compact&hide_border=true&title_color=4169e1&text_color=4169e1&bg_color=0d1117&langs_count=8" />
+
+<img width="49%" height="195px" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MatheusMeirellesGomes&theme=dracula&utcOffset=-3" />
+
+</div>
+
+<p align="center">
+    <img src="https://github-profile-trophy.vercel.app/?username=MatheusMeirellesGomes&theme=dracula&row=2&no-bg=true&column=4&margin-w=15&margin-h=15&no-frame=true" />
+</p>
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+### 💻 Linguagens de Programação
+
+[![My Skills](https://skillicons.dev/icons?i=c,cpp,java,javascript,typescript,python,php,cs&perline=8)](https://skillicons.dev)
+
+### 🎨 Front-end
+
+[![Frontend Skills](https://skillicons.dev/icons?i=html,css,react,bootstrap,jquery,tailwind&perline=6)](https://skillicons.dev)
+
+### 🔧 Back-end & Ferramentas
+
+[![Backend Skills](https://skillicons.dev/icons?i=nodejs,express,mysql,git,github,vscode&perline=6)](https://skillicons.dev)
+
+</div>
+
+---
+
+## 🚀 Projetos em Destaque
+
+<div align="center">
+
+[![AEDS-1](https://github-readme-stats.vercel.app/api/pin/?username=MatheusMeirellesGomes&repo=AEDS-1&theme=dark&hide_border=true&bg_color=0d1117&title_color=4169e1&icon_color=4169e1&text_color=c9d1d9)](https://github.com/MatheusMeirellesGomes/AEDS-1)
+[![PRESENTEISA](https://github-readme-stats.vercel.app/api/pin/?username=MatheusMeirellesGomes&repo=PRESENTEISA&theme=dark&hide_border=true&bg_color=0d1117&title_color=4169e1&icon_color=4169e1&text_color=c9d1d9)](https://github.com/MatheusMeirellesGomes/PRESENTEISA)
+
+</div>
+
+---
+
+## 📫 Contato
+
+<div align="center">
+  
+[![Gmail](https://img.shields.io/badge/-Gmail-ff5555?style=for-the-badge&logo=gmail&logoColor=white)](mailto:matheusrmme2019@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gomesmatheusjj/)
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/gomesmatheusjj/)
+
+</div>
+
+---
+
+<div align="center">
+  
+### 💭 Frase do Dia
+
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula)](https://github.com/piyushsuthar/github-readme-quotes)
+
+</div>
+
+<div align="center">
+  
+![Profile Views](https://komarev.com/ghpvc/?username=MatheusMeirellesGomes&color=4169e1&style=flat-square&label=Visitantes)
+[![GitHub followers](https://img.shields.io/github/followers/MatheusMeirellesGomes?style=social)](https://github.com/MatheusMeirellesGomes)
+
+</div>
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=4169e1&height=120&section=footer"/>
